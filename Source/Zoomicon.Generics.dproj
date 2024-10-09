@@ -216,6 +216,9 @@
         <None Include="ModelSupport_Zoomicon.Generics\Zoomicon\Generics\Factories\default.txaPackage"/>
         <None Include="ModelSupport_Zoomicon.Generics\Zoomicon\Generics\Collections\default.txaPackage"/>
         <None Include="ModelSupport_Zoomicon.Generics\Zoomicon\Generics\default.txaPackage"/>
+        <None Include="..\boss.json"/>
+        <None Include="..\LICENSE.txt"/>
+        <None Include="..\README.md"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -260,6 +263,12 @@
                 </DeployFile>
                 <DeployFile LocalName="..\..\..\..\..\..\Public\Documents\Embarcadero\Studio\22.0\Bpl\Zoomicon.Generics.bpl" Configuration="Debug" Class="ProjectOutput"/>
                 <DeployFile LocalName="..\..\..\..\..\..\Public\Documents\Embarcadero\Studio\23.0\Bpl\Win64\Zoomicon.Generics.bpl" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="..\..\..\..\..\Public\Documents\Embarcadero\Studio\23.0\Bpl\Win64\Zoomicon.Generics.bpl" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win64">
+                        <RemoteName>Zoomicon.Generics.bpl</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployClass Name="AdditionalDebugSymbols">
                     <Platform Name="OSX32">
                         <Operation>1</Operation>
