@@ -1,0 +1,29 @@
+{
+  "package": {
+    "name": "Zoomicon.Generics",
+    "version": "1.0",
+
+    "description": "Generics for Delphi",
+
+    "author": "George Birbilis - Zoomicon.com",
+    "license": "MIT",
+    
+    "dependencies": {}, 
+
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Zoomicon/Zoomicon.Generics.Delphi"
+    },
+    "main": "Source/Zoomicon.Generics.dproj",
+    "test": "Test/Zoomicon.Generics.Test.dproj",
+
+    "projects": [
+      "Source/Zoomicon.Generics.dproj",
+      "Test/Zoomicon.Generics.Test.dproj"
+    ],
+    "files": [
+      "Source/**/*.pas",
+      "Test/**/*.pas"
+    ]
+  }
+}
