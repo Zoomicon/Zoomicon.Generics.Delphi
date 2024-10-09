@@ -45,4 +45,18 @@
         <CallTarget Targets="Zoomicon_Generics:Make;Zoomicon_Generics_Tests:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+    <ItemGroup Condition="'$(BuildGroup)'=='All Platforms'">
+        <BuildGroupProject Include="Source\Zoomicon.Generics.dproj">
+            <ProjectGuid>{4E802638-0807-4E61-80B9-F0D9A1704024}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Android;Android64;iOSDevice64;iOSSimARM64;OSX64;OSXARM64;Win32;Win64</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="Test\Zoomicon.Generics.Tests.dproj">
+            <ProjectGuid>{C516BAD6-362F-4F4C-89F3-B9225D62A793}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+    </ItemGroup>
 </Project>
