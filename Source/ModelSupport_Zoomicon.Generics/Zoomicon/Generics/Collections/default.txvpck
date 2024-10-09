@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="26gd69w2gkk_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;:Zoomicon.Generics.Collections.TListEx&lt;1&gt;" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetAllInterface&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetAllInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetAllInterface&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetAllInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetInterfaceCount&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetInterfaceCount.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetInterfaceCount&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetInterfaceCount.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetFirstInterface&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetFirstInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetFirstInterface&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetFirstInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetLastInterface&lt;1&gt;(System.Generics.Collections.TList&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetLastInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetLastInterface&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetLastInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.ForEachInterface&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,Zoomicon.Generics.Collections.TObjectListEx`1.ForEachInterface.TProc,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.ForEachInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.ForEachInterface&lt;1&gt;(Zoomicon.Generics.Collections.TObjectListEx`1.ForEachInterface.TProc,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.ForEachInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.AllInterfaces&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,Zoomicon.Generics.Collections.TObjectListEx`1.AllInterfaces.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.AllInterfaces&lt;1&gt;(Zoomicon.Generics.Collections.TObjectListEx`1.AllInterfaces.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetAllClass&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetAllClass.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetAllClass&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetAllClass.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetClassCount&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetClassCount.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetClassCount&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetClassCount.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetFirstClass&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetFirstClass.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetFirstClass&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetFirstClass.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetLastClass&lt;1&gt;(System.Generics.Collections.TList&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetLastClass.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.GetLastClass&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.GetLastClass.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.ForEachClass&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,Zoomicon.Generics.Collections.TObjectListEx`1.ForEachClass.TProc,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.ForEachClass.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.ForEachClass&lt;1&gt;(Zoomicon.Generics.Collections.TObjectListEx`1.ForEachClass.TProc,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TObjectListEx`1.ForEachClass.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.AllClasses&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,Zoomicon.Generics.Collections.TObjectListEx`1.AllClasses.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.AllClasses&lt;1&gt;(Zoomicon.Generics.Collections.TObjectListEx`1.AllClasses.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.FreeAll(System.Generics.Collections.TList&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TObjectListEx&lt;1&gt;.FreeAll()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;:Zoomicon.Generics.Collections.TListEx&lt;1&gt;" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.GetAllInterface&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.GetAllInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.GetAllInterface&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.GetAllInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.GetInterfaceCount&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.GetInterfaceCount.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.GetInterfaceCount&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.GetInterfaceCount.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.GetFirstInterface&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.GetFirstInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.GetFirstInterface&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.GetFirstInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.GetLastInterface&lt;1&gt;(System.Generics.Collections.TList&lt;1&gt;,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.GetLastInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.GetLastInterface&lt;1&gt;(System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.GetLastInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.ForEachInterface&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,Zoomicon.Generics.Collections.TInterfaceListEx`1.ForEachInterface.TProc,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.ForEachInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.ForEachInterface&lt;1&gt;(Zoomicon.Generics.Collections.TInterfaceListEx`1.ForEachInterface.TProc,System.SysUtils.TPredicate`1,Zoomicon.Generics.Collections.TInterfaceListEx`1.ForEachInterface.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.AllInterfaces&lt;1&gt;(System.Generics.Collections.TEnumerable&lt;1&gt;,Zoomicon.Generics.Collections.TInterfaceListEx`1.AllInterfaces.TPredicate)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TInterfaceListEx&lt;1&gt;.AllInterfaces&lt;1&gt;(Zoomicon.Generics.Collections.TInterfaceListEx`1.AllInterfaces.TPredicate)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Zoomicon.Generics:Zoomicon.Generics.Collections.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetRandom(System.Generics.Collections.TList&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetRandom()" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetAll(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetAll(System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetCount(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetCount(System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetFirst(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetFirst(System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetLast(System.Generics.Collections.TList&lt;1&gt;,System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.GetLast(System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.ForEach(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TProc`1,System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.ForEach(System.SysUtils.TProc`1,System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.All(System.Generics.Collections.TEnumerable&lt;1&gt;,System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.All(System.SysUtils.TPredicate`1)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.Shuffle(System.Generics.Collections.TList&lt;1&gt;)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.Shuffle()" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.AddOnce(System.Generics.Collections.TList&lt;1&gt;,T)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Collections.TListEx&lt;1&gt;.AddOnce(T)" />
+    </reference>
+  </view>
+</nodeSet>

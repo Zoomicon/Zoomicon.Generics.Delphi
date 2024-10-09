@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="q2vbknhwh6m_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Zoomicon.Generics:Zoomicon.Generics.Registries.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_impl:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;" />
+      <reference referencedUin="delphi:e_field:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.FDictionary" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Create(System.Boolean,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Create(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Add(TKey,TValue)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Add(TKey[],TValue)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Remove(TKey)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Get(TKey)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.GetCount()" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Clear()" />
+      <reference referencedUin="delphi:e_property:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;.Count" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TObjectRegistry&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_gnt:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TObjectRegistry&lt;2&gt;:Zoomicon.Generics.Registries.TRegistry&lt;2&gt;" />
+      <reference referencedUin="delphi:l_impl:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TObjectRegistry&lt;2&gt;:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.TObjectRegistry&lt;2&gt;.Create(TDictionaryOwnerships,System.Integer)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Zoomicon.Generics:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;.Add(TKey,TValue)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;.Add(TKey[],TValue)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;.Remove(TKey)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;.Get(TKey)" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;.GetCount()" />
+      <reference referencedUin="delphi:e_method:src:Zoomicon.Generics:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;.Clear()" />
+      <reference referencedUin="delphi:e_property:src:Zoomicon.Generics:Zoomicon.Generics.Registries.IRegistry&lt;2&gt;.Count" />
+    </reference>
+  </view>
+</nodeSet>
