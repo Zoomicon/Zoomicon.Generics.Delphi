@@ -1,5 +1,6 @@
-//Description: Generic Collections
-//Author: George Birbilis (http://zoomicon.com)
+//Project: Zoomicon.Generics (https://github.com/Zoomicon/Zoomicon.Generics.Delphi)
+//Author: George Birbilis (http://Zoomicon.com)
+//Description: Generics collections
 
 unit Zoomicon.Generics.Collections;
 

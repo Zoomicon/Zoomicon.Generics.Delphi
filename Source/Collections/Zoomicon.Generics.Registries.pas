@@ -1,3 +1,7 @@
+//Project: Zoomicon.Generics (https://github.com/Zoomicon/Zoomicon.Generics.Delphi)
+//Author: George Birbilis (http://Zoomicon.com)
+//Description: Generics registries
+
 unit Zoomicon.Generics.Registries;
 
 interface
