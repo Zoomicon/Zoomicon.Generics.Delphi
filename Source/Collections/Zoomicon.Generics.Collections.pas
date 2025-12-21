@@ -19,7 +19,7 @@ type
     function GetRandom: T; overload;
     function GetAll(const Predicate: TPredicate<T> = nil): IListEx<T>; overload;
     function GetCount(const Predicate: TPredicate<T> = nil): Integer; overload;
-    function GetFirst(const Predicate: TPredicate<T> = nil): T; overload;
+    function GetFirst(const Predicate: TPredicate<T> = nil; const Skip: Integer = 0): T; overload;
     function GetLast(const Predicate: TPredicate<T> = nil): T; overload;
     procedure ForEach(const Proc: TProc<T>; const Predicate: TPredicate<T> = nil); overload;
     function All(const Predicate: TPredicate<T>): Boolean; overload;
@@ -42,8 +42,8 @@ type
     function GetCount(const Predicate: TPredicate<T> = nil): Integer; overload;
 
     {GetFirst}
-    class function GetFirst(const Enum: TEnumerable<T>; const Predicate: TPredicate<T> = nil): T; overload;
-    function GetFirst(const Predicate: TPredicate<T> = nil): T; overload;
+    class function GetFirst(const Enum: TEnumerable<T>; const Predicate: TPredicate<T> = nil; const Skip: Integer = 0): T; overload;
+    function GetFirst(const Predicate: TPredicate<T> = nil; const Skip: Integer = 0): T; overload;
 
     {GetLast}
     class function GetLast(const List: TList<T>; const Predicate: TPredicate<T> = nil): T; overload;
@@ -79,7 +79,7 @@ type
     class function GetInterfaceCount<AInterface: IInterface>(const Enum: TEnumerable<T>; const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AInterface> = nil): Integer; overload;
     function GetInterfaceCount<AInterface: IInterface>(const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AInterface> = nil): Integer; overload;
 
-    {GetFirstInterface}
+    {GetFirstInterface} //TODO: add "Skip: Integer = 0" optional parameter
     class function GetFirstInterface<AInterface: IInterface>(const Enum: TEnumerable<T>; const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AInterface> = nil): AInterface; overload;
     function GetFirstInterface<AInterface: IInterface>(const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AInterface> = nil): AInterface; overload;
 
@@ -111,7 +111,7 @@ type
     class function GetInterfaceCount<AInterface: IInterface>(const Enum: TEnumerable<T>; const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AInterface> = nil): Integer; overload;
     function GetInterfaceCount<AInterface: IInterface>(const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AInterface> = nil): Integer; overload;
 
-    {GetFirstInterface}
+    {GetFirstInterface} //TODO: add "Skip: Integer = 0" optional parameter
     class function GetFirstInterface<AInterface: IInterface>(const Enum: TEnumerable<T>; const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AInterface> = nil): AInterface; overload;
     function GetFirstInterface<AInterface: IInterface>(const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AInterface> = nil): AInterface; overload;
 
@@ -135,7 +135,7 @@ type
     class function GetClassCount<AClass: class>(const Enum: TEnumerable<T>; const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AClass> = nil): Integer; overload;
     function GetClassCount<AClass: class>(const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AClass> = nil): Integer; overload;
 
-    {GetFirstClass}
+    {GetFirstClass} //TODO: add "Skip: Integer = 0" optional parameter
     class function GetFirstClass<AClass: class>(const Enum: TEnumerable<T>; const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AClass> = nil): AClass; overload;
     function GetFirstClass<AClass: class>(const OuterPredicate: TPredicate<T> = nil; const InnerPredicate: TPredicate<AClass> = nil): AClass; overload;
 
@@ -229,21 +229,26 @@ end;
 
 {$region 'GetFirst'}
 
-class function TListEx<T>.GetFirst(const Enum: TEnumerable<T>; const Predicate: TPredicate<T> = nil): T;
+class function TListEx<T>.GetFirst(const Enum: TEnumerable<T>; const Predicate: TPredicate<T> = nil; const Skip: Integer = 0): T;
 begin
   if Assigned(Enum) then
+  begin
+    var Count := 0;
+
     for var item in Enum do
       if (not Assigned(Predicate)) or Predicate(item) then
-      begin
-        result := item;
-        exit;
-      end;
-  result := Default(T) //returns Default value for type T
+        if Count = Skip then
+          Exit(item)
+        else
+          Inc(Count);
+  end;
+
+  Result := Default(T); //returns Default value for type T
 end;
 
-function TListEx<T>.GetFirst(const Predicate: TPredicate<T> = nil): T;
+function TListEx<T>.GetFirst(const Predicate: TPredicate<T> = nil; const Skip: Integer = 0): T;
 begin
-  result := {TListEx<T>.}GetFirst(self, Predicate);
+  Result := {TListEx<T>.}GetFirst(Self, Predicate, Skip);
 end;
 
 {$endregion}
