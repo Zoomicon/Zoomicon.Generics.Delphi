@@ -77,13 +77,13 @@
         <BuildGroupProject Include="Source\Zoomicon.Generics.dproj">
             <ProjectGuid>{4E802638-0807-4E61-80B9-F0D9A1704024}</ProjectGuid>
             <Configurations>Release</Configurations>
-            <Platforms>Android;Android64;iOSDevice64;iOSSimARM64;OSX64;OSXARM64;Win32;Win64;Win64x</Platforms>
+            <Platforms>Android;Android64;iOSDevice64;iOSSimARM64;Linux64;OSX64;OSXARM64;Win32;Win64;Win64x</Platforms>
             <Enabled>True</Enabled>
         </BuildGroupProject>
         <BuildGroupProject Include="Test\Zoomicon.Generics.Tests.dproj">
             <ProjectGuid>{C516BAD6-362F-4F4C-89F3-B9225D62A793}</ProjectGuid>
             <Configurations>Release</Configurations>
-            <Platforms>Android;Android64;iOSDevice64;iOSSimARM64;OSX64;OSXARM64;Win32;Win64</Platforms>
+            <Platforms>Android;Android64;iOSDevice64;iOSSimARM64;Linux64;OSX64;OSXARM64;Win32;Win64</Platforms>
             <Enabled>True</Enabled>
         </BuildGroupProject>
     </ItemGroup>
@@ -112,6 +112,34 @@
             <ProjectGuid>{C516BAD6-362F-4F4C-89F3-B9225D62A793}</ProjectGuid>
             <Configurations>Release</Configurations>
             <Platforms>Win32;Win64</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+    </ItemGroup>
+    <ItemGroup Condition="'$(BuildGroup)'=='Linux'">
+        <BuildGroupProject Include="Source\Zoomicon.Generics.dproj">
+            <ProjectGuid>{4E802638-0807-4E61-80B9-F0D9A1704024}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Linux64</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="Test\Zoomicon.Generics.Tests.dproj">
+            <ProjectGuid>{C516BAD6-362F-4F4C-89F3-B9225D62A793}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Linux64</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+    </ItemGroup>
+    <ItemGroup Condition="'$(BuildGroup)'=='All Platforms (not Linux)'">
+        <BuildGroupProject Include="Source\Zoomicon.Generics.dproj">
+            <ProjectGuid>{4E802638-0807-4E61-80B9-F0D9A1704024}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Android;Android64;iOSDevice64;iOSSimARM64;OSX64;OSXARM64;Win32;Win64;Win64x</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="Test\Zoomicon.Generics.Tests.dproj">
+            <ProjectGuid>{C516BAD6-362F-4F4C-89F3-B9225D62A793}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Android;Android64;iOSDevice64;iOSSimARM64;OSX64;OSXARM64;Win32;Win64</Platforms>
             <Enabled>True</Enabled>
         </BuildGroupProject>
     </ItemGroup>
